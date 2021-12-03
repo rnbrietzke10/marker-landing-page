@@ -237,6 +237,7 @@ input {
   .hero-left {
     background-image: url('./assets/illustration-hero-left.svg');
     background-position: right;
+    background-size: cover;
     height: 100%;
     width: 20%;
   }
@@ -305,19 +306,18 @@ input {
 /* Desktop */
 @media (min-width: 769px) {
   header {
-    margin-left: 100px;
+    margin-left: 175px;
   }
 
   .hero {
     height: 500px;
     margin-bottom: 200px;
   }
-  .hero-left {
-    width: 25%;
-  }
+
   .hero-middle {
-    width: 50%;
+    width: 75%;
   }
+
   .hero-middle p {
     width: 500px;
     margin: 20px auto 50px;
@@ -329,8 +329,10 @@ input {
     width: 500px;
     margin: 20px auto 50px;
   }
-  .hero-right {
-    width: 25%;
+  .hero-right,
+  .hero-left {
+    width: 30%;
+    background-size: 450px;
   }
 
   /* Info Section Styles */
@@ -344,6 +346,10 @@ input {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+  }
+  .financial-freedom,
+  .work-anywhere {
+    margin-bottom: -90px;
   }
   .content {
     width: 365px;
