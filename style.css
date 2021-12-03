@@ -335,8 +335,8 @@ input {
 
   /* Info Section Styles */
   .info {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100vw;
   }
   .img-content-container {
@@ -347,6 +347,10 @@ input {
   }
   .content {
     width: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .content h3 {
     margin-left: 0;
