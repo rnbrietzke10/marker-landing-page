@@ -112,6 +112,11 @@ h4 {
   text-align: center;
   margin: 70px auto 30px;
 }
+.plans-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Free Plan Styles */
 .free-plan {
@@ -370,6 +375,27 @@ input {
     width: 75%;
     margin: auto;
     justify-content: center;
+  }
+  .pricing-plans-heading > p {
+    width: 540px;
+  }
+  .plans-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .paid-plan,
+  .free-plan {
+    width: 455px;
+    height: 458px;
+  }
+  .free-plan {
+    margin-bottom: 0;
+  }
+  .plan-description {
+    width: 355px;
   }
 
   /* Footer Styles */
