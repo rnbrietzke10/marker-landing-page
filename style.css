@@ -211,6 +211,12 @@ input {
   line-height: 25px;
   font-weight: 800;
 }
+
+input:focus {
+  outline: none !important;
+  border: 2px solid #3ee9e5;
+}
+
 .btn {
   width: 85%;
   background-color: #3ee9e5;
@@ -222,6 +228,12 @@ input {
   font-size: 15px;
   line-height: 25px;
   font-weight: 800;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #3ee9e5;
 }
 
 /* Tablet */
