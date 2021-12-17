@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rnbrietzke10/marker-landing-page)
-- Live Site URL: [Add live site URL here](https://rnbrietzke10.github.io/marker-landing-page/)
+- Solution URL: [Maker Landing Page Repo](https://github.com/rnbrietzke10/marker-landing-page)
+- Live Site URL: [Maker Landing Page](https://rnbrietzke10.github.io/marker-landing-page/)
 
 ## My process
 
