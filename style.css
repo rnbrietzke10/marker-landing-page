@@ -238,7 +238,10 @@ input:focus {
   border: 2px solid #3ee9e5;
 }
 
-#error {
+.hidden {
+  display: none;
+}
+.error {
   margin-left: -232px;
   color: #ff2965;
   margin-top: 5px;
